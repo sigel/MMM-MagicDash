@@ -9,7 +9,7 @@
 				alerSound: true,
 				defaultDelay: 100,
 				quietTimeStart: '23:00',      // 11pm
-				quietTimeEnd:   '07:00'       // 7am
+				quietTimeEnd: '07:00'       // 7am
 			}
 		},
 		{

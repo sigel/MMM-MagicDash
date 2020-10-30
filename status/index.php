@@ -13,7 +13,6 @@
     <div class="container-fluid">
       <?php
       $data = "";
-      //configure script
       $timeout = "1";
       $services = array();
       $services[] = array("port" => "2784", "service" => "Sabnzbd", "icon" => "sab", "ip" => "");
@@ -23,7 +22,7 @@
 
       foreach ($services  as $service) {
         if($service['ip']==""){
-           $service['ip'] = "192.168.1.10";
+           $service['ip'] = "192.168.1.10"; // IP OF YOUR SERVER
         }
         $data .= '<div class="row"><div class="col name ' . $service['icon'] . '">' . $service['service'] . '</div>';
       	$fp = @fsockopen($service['ip'], $service['port'], $errno, $errstr, $timeout);
