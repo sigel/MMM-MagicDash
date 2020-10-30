@@ -1,0 +1,46 @@
+/* General Overwrites */
+body { background: #000; color: #fff; }
+.normal { color: #fff; }
+.dimmed { color: #9d9d9d; }
+.module { margin-bottom: 48px !important; }
+.module .module-header { display: none !important; }
+
+/* Alerts */
+.ns-box, .ns-alert { padding: 24px !important; border: 0 !important; border-radius:0 !importnat; background: rgba(230,0,0,.5); min-width: 360px; }
+.ns-box-inner .dimmed { font-weight: 600 !important; color: #fff !important; }
+.ns-box-inner .light { font-size: 24px !important; }
+
+/* Weather Forecast */
+.weatherforecast td.day { padding: 10px 0; text-transform: uppercase; }
+.weatherforecast tr.colored .max-temp { color: #ff2a3f; }
+.weatherforecast tr.colored .min-temp {  color: #3397ff; }
+
+/* Spotify */
+.MMM-NowPlayingOnSpotify .NPOS_coverArtArea { max-width: 115px; float: left; margin-right: 16px; }
+.MMM-NowPlayingOnSpotify .NPOS_infoText { font-size: 12px !important; }
+.MMM-NowPlayingOnSpotify .NPOS_infoText:first-child { font-weight: 600 !important; }
+.MMM-NowPlayingOnSpotify .NPOS_infoText:last-child { display: none; }
+.MMM-NowPlayingOnSpotify .NPOS_infoText .NPOS_icon { color: #1ED760; }
+.MMM-NowPlayingOnSpotify progress.NPOS_progress { position: relative; top: -20px; background-color: rgba(30,215,96,.15) !important; border:0 !important; height: 2px !important; }
+.MMM-NowPlayingOnSpotify progress[value].NPOS_progress::-webkit-progress-value { background-color: #1ED760 !important; }
+.MMM-NowPlayingOnSpotify .NPOS_nothingIsPlayingContent img { display: none; }
+
+/* Calendar */
+.MMM-MyCalendar { width: 100% !important; max-width: 100% !important; }
+.MMM-MyCalendar table tr { display: block; margin: 12px 0; background: rgba(0,0,0,.35); border-bottom: 0; }
+.MMM-MyCalendar table td { padding: 24px; }
+.MMM-MyCalendar .symbol { width: 55px !important; height: 55px !important; font-size: 18px !important; font-weight:300; padding-top: 22px !important; top:10px !important; }
+.MMM-MyCalendar .symbol .calendar-icon { width: 55px !important; height: 55px !important; }
+.MMM-MyCalendar span.title, .MMM-MyCalendar span.time, .MMM-MyCalendar span.location { text-align: left !important; padding-left: 75px !important; }
+.MMM-MyCalendar table tr:first-child { border-bottom: 5px solid rgba(18,250,18,.25); background: rgba(9,89,18,.35); }
+.MMM-MyCalendar table tr:first-child .title { font-size: 36px; }
+.MMM-MyCalendar table tr:first-child .time { font-size: 24px; text-transform: uppercase; color: #fff; }
+.MMM-MyCalendar table tr:nth-child(2) { background: rgba(1,47,6,.35); }
+.MMM-MyCalendar table tr:nth-child(3) { background: rgba(2,23,4,.35); }
+.MMM-MyCalendar table tr:nth-last-child(1) { background: rgba(89,9,9,.35); }
+.MMM-MyCalendar table tr:nth-last-child(2) { background: rgba(47,1,1,.35); }
+.MMM-MyCalendar table tr:nth-last-child(3) { background: rgba(23,2,2,.35); }
+
+/* Plex */
+.MMM-PlexNowPlaying .spacerCell div { border: 0 !important; }
+.MMM-PlexNowPlaying .no-streams-table { display: none; }
